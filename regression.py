@@ -51,5 +51,5 @@ def run_hyperparameter_models():
         print(f"{name} Best Params: {grid.best_params_}")
         print(f"{name} -> MSE: {mse:.2f}, R²: {r2:.2f}\n")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     run_hyperparameter_models()
